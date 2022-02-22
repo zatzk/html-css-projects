@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Lexend+Deca);
+@media only screen and (max-width: 1440px) {
+    body {
+      background-color: #fff;
+    }
+  }
+  @media only screen and (min-width: 375px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+*{
+    font-family: Inter;
+    font-size: 15;
+}
+.maindiv {
+    max-height: 446px;
+    min-height: 446px;
+    max-width: 1080px;
+    min-width: 1080px;
+    background-color: #0A0C1B;
+    border-style: solid;
+    border-width: 130px;
+    border-color: #0A0C1B;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+h1, p, h3{
+  color: #fff;  
+}
+p{
+    font-size: 15px;
+}
+mark.purple{
+    color:#A55DCF ;
+    background: none;
+}
+.indiv {
+    max-width: 540px;
+    width: 540px;
+    max-height: 446px;
+    height: 446px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #1C1938;
+}
+.secdiv {
+    display: flex;
+}
+.tabs {
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+h3{
+    margin: 0% auto;
+}
+.tabselec{
+    margin: 0% auto;
+    margin-top: 5px;
+}
+.mainbar {
+    margin-left: 35px;
+}
+.photodiv{
+     display: flex;
+     background-color: #6f2f94;
+     border-bottom-right-radius: 15px;
+     border-top-right-radius: 15px;
+}
+img {
+    opacity: 0.4;
+    filter: brightness(200%);
+    filter: saturate(8);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
